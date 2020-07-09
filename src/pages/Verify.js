@@ -5,7 +5,7 @@ import tw from "twin.macro";
 import styled from "styled-components";
 import { css } from "styled-components/macro"; //eslint-disable-line
 import illustration from "images/professional-illustration.svg";
-import logo from "images/logo.svg";
+import Logo from "../components/headers/logo";
 import VerifyButton from "@passbase/button/react";
 
 const Container = tw(
@@ -14,7 +14,6 @@ const Container = tw(
 const Content = tw.div`max-w-screen-xl m-0 sm:mx-20 sm:my-16 bg-white text-gray-900 shadow sm:rounded-lg flex justify-center flex-1`;
 const MainContainer = tw.div`lg:w-1/2 xl:w-5/12 p-6 sm:p-12`;
 const LogoLink = tw.a``;
-const LogoImage = tw.img`h-12 mx-auto`;
 const MainContent = tw.div`mt-12 flex flex-col items-center`;
 const Heading = tw.h1`text-2xl xl:text-3xl font-extrabold`;
 const DescriptionText = styled.p`
@@ -38,7 +37,7 @@ export default ({
       <Content>
         <MainContainer>
           <LogoLink href={logoLinkUrl}>
-            <LogoImage src={logo} />
+            <Logo />
           </LogoLink>
           <MainContent>
             <Heading>{headingText}</Heading>
@@ -47,22 +46,23 @@ export default ({
               identification process by clicking the button below.
             </DescriptionText>
             <VerifyButton
-            apiKey=
-            {"ebb8c2f2c2b27d10a1dfdf1bd0a882455b0f5cfcfd37f2a9020d24cfbe08feaa"}
-            onFinished={(error, authKey, additionalAttributes) => {}}
-            integrationType={"signup"}
-            additionalAttributes={{
-              customer_user_id: "SOME_USER_ID"
-            }}
-            prefillAttributes={{
-              email: "",
-              country: "en"
-            }}
-            theme={{
-              accentColor: "#6415FF",
-              font: "Arial"
-            }}
-          />
+              apiKey={
+                "ebb8c2f2c2b27d10a1dfdf1bd0a882455b0f5cfcfd37f2a9020d24cfbe08feaa"
+              }
+              onFinished={(error, authKey, additionalAttributes) => {}}
+              integrationType={"signup"}
+              additionalAttributes={{
+                customer_user_id: "SOME_USER_ID",
+              }}
+              prefillAttributes={{
+                email: "",
+                country: "en",
+              }}
+              theme={{
+                accentColor: "#6415FF",
+                font: "Arial",
+              }}
+            />
           </MainContent>
         </MainContainer>
         <IllustrationContainer>

@@ -24,9 +24,9 @@ export default () => {
   return (
     <AnimationRevealPage>
       <Hero
-        heading={<>Move what matters.<HighlightedText>Deliver with Treact</HighlightedText></>}
+        heading={<>Move what matters<HighlightedText>Start Delivering Today</HighlightedText></>}
         description="Want to be your own boss? Start today by becoming one of our most important team members and deliver what our clients love."
-        imageSrc="https://d1a3f4spazzrp4.cloudfront.net/chameleon-assets/v1.0.0/9c9724ab-94d2-4e9f-8777-690527820704/desk2x.jpg"
+        imageSrc="https://d1pbny5bq445o3.cloudfront.net/driver/wp-content/uploads/2019/10/21112714/DriverlandingpageOverhaulNewImage09252019.png"
         imageCss={imageCss}
         imageDecoratorBlob={true}
         primaryButtonText="Sign Up"
@@ -129,7 +129,7 @@ export default () => {
       />
     
       <DownloadApp
-        text={<>People around you are ordering delicious meals using the <HighlightedTextInverse>Treact App.</HighlightedTextInverse></>}
+        text={<>People around you are ordering <HighlightedTextInverse>delicious meals.</HighlightedTextInverse></>}
       />
       <Footer />
     </AnimationRevealPage>

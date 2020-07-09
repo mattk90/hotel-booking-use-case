@@ -65,7 +65,7 @@ export default ({
             </LinksContainer>
           </TextContainer>
           <ImageContainer>
-            <img src={imageSrc} alt="" tw="w-64"/>
+            <img src="https://raster-static.postmates.com/?url=https://buyer-static-gcp.postmates.com/dist/prod/home-get-app.23dcef137d8c15d92424933aefd1eaff91d62134d82f0982350022464486a8ae88a603d8b979cd4d1be953ea495d1a55e61e53ea924495f33aa31e80af881081.png&quality=85&w=850&h=0&mode=auto&format=webp&v=4" alt="" tw="w-64"/>
           </ImageContainer>
         </Row>
         <DecoratorBlobContainer>
