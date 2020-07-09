@@ -92,7 +92,8 @@ import { css } from "styled-components/macro"; //eslint-disable-line
 
 /* Inner Pages */
 // import LoginPage from "pages/Login.js";
-// import SignupPage from "pages/Signup.js";
+import SignupPage from "pages/Signup.js";
+import VerifyPage from "pages/Verify.js";
 // import PricingPage from "pages/Pricing.js";
 // import AboutUsPage from "pages/AboutUs.js";
 // import ContactUsPage from "pages/ContactUs.js";
@@ -116,7 +117,13 @@ export default function App() {
         <Route path="/components/:type/:name">
           <ComponentRenderer />
         </Route>
-        <Route path="/">
+        <Route path="/signup">
+          <SignupPage />
+        </Route>
+        <Route path="/verify">
+          <VerifyPage />
+        </Route>
+        <Route exact path="/">
           <RestaurantLandingPage />
         </Route>
       </Switch>
