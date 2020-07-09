@@ -59,7 +59,7 @@ export default ({
                 country: "en",
               }}
               theme={{
-                accentColor: "#6415FF",
+                accentColor: "",
                 font: "Arial",
               }}
             />
