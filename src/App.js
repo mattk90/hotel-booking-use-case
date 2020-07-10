@@ -102,7 +102,7 @@ import VerifyPage from "pages/Verify.js";
 // import PrivacyPolicyPage from "pages/PrivacyPolicy.js";
 
 import ComponentRenderer from "ComponentRenderer.js";
-import HotelTravelLandingPage from "HotelTravelLandingPage.js";
+import HotelTravelLandingPage from "pages/HotelTravelLandingPage.js";
 
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 

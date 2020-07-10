@@ -2,7 +2,7 @@ import React from "react";
 import { useParams } from "react-router-dom";
 import AnimationRevealPage from "helpers/AnimationRevealPage.js";
 
-import HotelTravelLandingPage from "HotelTravelLandingPage.js";
+import HotelTravelLandingPage from "pages/HotelTravelLandingPage.js";
 import HotelTravelLandingPageImageSrc from "images/demo/HotelTravelLandingPage.jpeg";
 
 import LoginPage from "pages/Login.js";
