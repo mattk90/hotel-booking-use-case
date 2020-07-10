@@ -101,7 +101,7 @@ import VerifyPage from "pages/Verify.js";
 // import TermsOfServicePage from "pages/TermsOfService.js";
 // import PrivacyPolicyPage from "pages/PrivacyPolicy.js";
 
-import ComponentRenderer from "ComponentRenderer.js";
+import ComponentRenderer from "components/ComponentRenderer.js";
 import HotelTravelLandingPage from "pages/HotelTravelLandingPage.js";
 
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
