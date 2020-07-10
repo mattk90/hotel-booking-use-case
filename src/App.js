@@ -102,7 +102,7 @@ import VerifyPage from "pages/Verify.js";
 // import PrivacyPolicyPage from "pages/PrivacyPolicy.js";
 
 import ComponentRenderer from "ComponentRenderer.js";
-import RestaurantLandingPage from "RestaurantLandingPage.js";
+import HotelTravelLandingPage from "HotelTravelLandingPage.js";
 
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
@@ -124,7 +124,7 @@ export default function App() {
           <VerifyPage />
         </Route>
         <Route exact path="/">
-          <RestaurantLandingPage />
+          <HotelTravelLandingPage />
         </Route>
       </Switch>
     </Router>
