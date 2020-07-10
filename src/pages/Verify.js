@@ -52,11 +52,11 @@ export default ({
               onFinished={(error, authKey, additionalAttributes) => {}}
               integrationType={"signup"}
               additionalAttributes={{
-                customer_user_id: "SOME_USER_ID",
+                customer_user_id: "",
               }}
               prefillAttributes={{
                 email: "",
-                country: "en",
+                country: "",
               }}
               theme={{
                 accentColor: "",
